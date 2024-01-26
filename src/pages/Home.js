@@ -5,7 +5,7 @@ export default class Home extends Component {
   render() {
     const {navigation} = this.props
     return (
-      <View>
+      <View style={{flex:1,alignItems:'center',justifyContent:'center',}}>
         <Button title='Kayıt' onPress={() => navigation.navigate('SingUp')}/>
       </View>
     )
